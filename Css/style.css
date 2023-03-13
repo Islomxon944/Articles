@@ -28,7 +28,25 @@ img{
     height: auto;
 }
 
-.container{
+/* MAIN-CONTENT */
+.main-content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+;
+
+}
+
+/* .main-text{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.global-wrapper{
+    flex-grow: 1;
+    display: flex;
     width: 100%;
     max-width: 1200px;
     padding-left: 50px;
@@ -37,6 +55,59 @@ img{
     margin-right: auto;
 }
 
-.main-content{
-    flex-grow: 1;
+
+/* HERO */
+.hero {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/Rectangle\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+.hero-content {
+    max-width: 285px;
+}
+.hero-heading {
+    margin-top: 0;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-family: "Arial","Bebas Neue",sans-serif;
+    line-height: normal;
+    letter-spacing: 2xp;
+    color: #fff;
+}
+.hero-button {
+    display: inline-block;
+    background-color: #1E90FF;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Arial","Bebas Neue", sans-serif;
+    color: #fff;
+    padding: 12px 24px;
+    font-weight: 400px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.hero-link {
+    display: flex;
+}
+
+.hero-link::before{
+    width: 20px;
+    height: 20px;
+    content: "";
+    background-image: url(../img/icon.star.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin-right: 12px;
+}
+
+.hero-button-text {
 }
