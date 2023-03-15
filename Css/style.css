@@ -37,18 +37,11 @@ img{
 
 }
 
-/* .main-text{
-    width: 100%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 .global-wrapper{
     flex-grow: 1;
     display: flex;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
     padding-left: 50px;
     padding-right: 50px;
     margin-left: auto;
@@ -59,7 +52,8 @@ img{
 /* HERO */
 .hero {
     width: 100%;
-    max-width: 600px;
+    max-width: 700px;
+    padding: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,14 +63,14 @@ img{
     background-position: center bottom;
 }
 .hero-content {
-    max-width: 285px;
+    max-width: 300px;
 }
 .hero-heading {
     margin-top: 0;
     text-transform: uppercase;
     margin-bottom: 24px;
     font-size: 24px;
-    font-family: "Arial","Bebas Neue",sans-serif;
+    font-family:"Bebas Neue", "Roboto condensed", "Arial", sans-serif;
     line-height: normal;
     letter-spacing: 2xp;
     color: #fff;
@@ -87,15 +81,24 @@ img{
     text-decoration: none;
     font-size: 16px;
     line-height: 24px;
-    font-family: "Arial","Bebas Neue", sans-serif;
+    font-family: "Bebas Neue", "Roboto condensed", "Arial", sans-serif;
     color: #fff;
     padding: 12px 24px;
     font-weight: 400px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+.hero-button:hover{
+    background-color: rgba(30, 144, 255, 0.8);
+}
+.hero-button:active{
+    background-color: rgba(30, 144, 255, 0.6);
+}
+
 .hero-link {
     display: flex;
+    font-family: "Bebas Neue", "Roboto condensed", "Arial", sans-serif;
+    font-weight: 400;
 }
 
 .hero-link::before{
@@ -109,5 +112,114 @@ img{
     margin-right: 12px;
 }
 
-.hero-button-text {
+
+/*NEW-PAGE */
+.new-page {
+    padding:40px;
+    width: 100%;
+    max-width: 700px;
+}
+.new-page-heading {
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-family: "Bebas Neue", "Roboto condensed", "Arial", sans-serif;
+    font-size: 24px;
+    line-height: normal ;
+    font-weight: 400px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.new-page-grey-line {
+    height: 1px;
+    border: 0;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background-color: #999;
+}
+.new-page-list {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 24px;
+    list-style: none;
+}
+.new-page-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+/* ITEM-NEW-PAGE-VIDEOS */
+.item-new-page {
+    display: flex;
+}
+.item-new-page-img {
+    width: 160px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.item-new-page-text {
+    padding: 16px;
+}
+.item-new-page-words {
+    margin: 0;
+    margin-bottom: 4px;
+    font-family: "Bebas Neue", "Roboto condensed", "Arial", sans-serif;
+    font-size: 18px;
+    line-height: normal;
+    font-weight: 400px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.item-new-page-link {
+    text-decoration: none ;
+    color: #222;
+}
+.item-new-page-link:hover{
+    color: rgba(30, 144, 255, 0.8);
+}
+.item-new-page-link:active{
+    color: rgba(30, 144, 255, 0.6);
+}
+.item-new-page-time {
+    margin-top: 0;
+    display:flex ;
+    align-items: center;
+    color: #888;
+    font-size: 14px;
+    line-height: normal;
+}
+.item-new-page-put {
+    margin-right: 24px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-family: "Bebas Neue", "Roboto condensed", "Arial", sans-serif;
+    background-image: url(../img/icon-clock\ 1.svg);
+    background-repeat: no-repeat;
+}
+.item-new-page-see {
+    padding-left:20px ;
+    font-family: "Bebas Neue", "Roboto condensed", "Arial", sans-serif;
+    background-image: url(../img/visibility_black_24dp\ 1.svg);
+    background-repeat: no-repeat;
+}
+
+/* BUTTON */
+.blue-button {
+    background-color: #1E90FF;
+    border: none;
+    border-radius: ;
+    width: 592px;
+    height: 50px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: "Bebas Neue", "Roboto condensed", "Arial", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600px;
+}
+
+.blue-button:hover{
+    background-color: rgba(30, 144, 255, 0.8);
+}
+.blue-button:active{
+    background-color: rgba(30, 144, 255, 0.6);
 }
