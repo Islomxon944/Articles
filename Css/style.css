@@ -194,13 +194,13 @@ img{
     display: flex;
     align-items: center;
     font-family: "Bebas Neue", "Roboto condensed", "Arial", sans-serif;
-    background-image: url(../img/icon-clock\ 1.svg);
+    background-image: url(../img/icon-clock.svg);
     background-repeat: no-repeat;
 }
 .item-new-page-see {
     padding-left:20px ;
     font-family: "Bebas Neue", "Roboto condensed", "Arial", sans-serif;
-    background-image: url(../img/visibility_black_24dp\ 1.svg);
+    background-image: url(../img/visibility_black.svg);
     background-repeat: no-repeat;
 }
 
